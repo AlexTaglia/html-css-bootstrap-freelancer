@@ -11,6 +11,8 @@
     height: 250px;
 }
 
+
+
 .bg-footer{
     background-color: #3a546d;
 }
@@ -19,26 +21,26 @@
     background-color: #2c3e50;
 }
 
-.box-1{
+.box-inner-1{
     background-color: #ba4b63;
 }
 
-.box-2{
+.box-inner-2{
     background-color: #1fa3b6;
 }
 
-.box-3{
+.box-inner-3{
     background-color: #140f0f;
 }
 
-.box-4{
+.box-inner-4{
     background-color: #1d82c1;
 }
 
-.box-5{
+.box-inner-5{
     background-color: #0f38b5;
 }
 
-.box-6{
+.box-inner-6{
     background-color: #ccb2a2;
 }
