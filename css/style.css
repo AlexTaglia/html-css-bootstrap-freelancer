@@ -1,17 +1,59 @@
-.bg-nav{   
-    background-color: #2c3e50 ;
-    height: 40px;
+/* Riscrittura classi Bootstrap */
+.navbar-collapse{
+    flex-grow: 0;
 }
 
-.bg-green{
+.navbar-brand{
+    font-weight: bold;
+}
+
+.navbar-dark .navbar-toggler {
+    border-color: white;
+}
+
+
+
+/* --------------------- */
+
+.section-container{
     background-color: #18bc9c;
+    margin-top: 68px ;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
-[class*="box-"]{
-    height: 250px;
+nav{   
+    background-color: #2c3e50 ;
+    height: 68px;
 }
 
-.bg-footer{
+.section-container .avatar{
+    width: 200px;
+}
+
+
+.contact input,
+.contact textarea{
+    width: 100%;
+    border: 0;
+    border-bottom: 1px solid rgb(206, 206, 206);
+    line-height: 48px;
+}
+
+.contact ::placeholder{
+    color: black;
+}
+
+footer .icon i.fab{
+    border: 1px solid white;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+}
+
+
+footer{
     background-color: #3a546d;
 }
 
@@ -19,26 +61,36 @@
     background-color: #2c3e50;
 }
 
-.box-inner-1{
-    background-color: #ba4b63;
+[class*="box-"]{
+    height: 350px;
+    background-size: cover;
+    background-position: center;
 }
 
-.box-inner-2{
-    background-color: #1fa3b6;
+[class*="box-"] img{
+    width: 100%;
 }
 
-.box-inner-3{
-    background-color: #140f0f;
+.box-1{
+    background-image: url(../img/cabin.png);
 }
 
-.box-inner-4{
-    background-color: #1d82c1;
+.box-2{
+    background-image: url(../img/cake.png);
 }
 
-.box-inner-5{
-    background-color: #0f38b5;
+.box-3{
+    background-image: url(../img/circus.png);
 }
 
-.box-inner-6{
-    background-color: #ccb2a2;
+.box-4{
+    background-image: url(../img/game.png);
+}
+
+.box-5{
+    background-image: url(../img/safe.png);
+}
+
+.box-6{
+    background-image: url(../img/submarine.png); 
 }

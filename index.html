@@ -13,21 +13,40 @@
 </head>
 
 <body>
-    <div class="container-fluid bg-nav">
-        <nav>NAVBAR</nav>
-    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#">START BOOTSTRAP</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav me-auto mb-2 mb-md-0">
+              <li class="nav-item">
+                <a class="nav-link" href="#">PORTFOLIO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">ABOUT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">CONTACT</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
 
     <!-- JUMBO -->
-    <div class="container-fluid bg-green text-center text-white mb-5">
+    <div class="container-fluid section-container text-center text-white mb-5">
         <div class="row">
-            <div class="col-xs-12">
-                <img src="https://via.placeholder.com/150" alt="">
+            <div class="col-12">
+                <img class="avatar" src="./img/avatar.svg" alt="avatar">
             </div>
-            <div class="col-xs-12">
+            <div class="col-12">
                 <h1>START BOOTSTRAP</h1>
             </div>
-            <div class="col-xs-12">
-                <h5 class="mb-5">GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</h5>
+            <div class="col-12">
+                <h5 class="">GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</h5>
             </div>
         </div>
     </div>
@@ -41,39 +60,33 @@
         </div>
 
         <div class="row">
-            <div class="col-xs-12 box-1 col-md-6 col-lg-4 mb-4">
-                <div class="box-inner-1 rounded rounded-3">
-
+            <div class="col-12 col-md-6 col-lg-4 mb-4">
+                <div class="box-1 rounded rounded-3">
                 </div>
             </div>
 
-            <div class="col-xs-12 box-2 col-md-6 col-lg-4 mb-4">
-                <div class="box-inner-2 rounded rounded-3">
-
+            <div class="col-12 col-md-6 col-lg-4 mb-4">
+                <div class="box-2 rounded rounded-3">
                 </div>
             </div>
 
-            <div class="col-xs-12 box-3 col-md-6 col-lg-4 mb-4">
-                <div class="box-inner-3 rounded rounded-3">
-
+            <div class="col-12 col-md-6 col-lg-4 mb-4">
+                <div class="box-3 rounded rounded-3">
                 </div>
             </div>
 
-            <div class="col-xs-12 box-4 col-md-6 col-lg-4 mb-4">
-                <div class="box-inner-4 rounded rounded-3">
-
+            <div class="col-12 col-md-6 col-lg-4 mb-4">
+                <div class="box-4 rounded rounded-3">
                 </div>
             </div>
 
-            <div class="col-xs-12 box-5 col-md-6 col-lg-4 mb-4">
-                <div class="box-inner-5 rounded rounded-3">
-
+            <div class="col-12 col-md-6 col-lg-4 mb-4">
+                <div class="box-5 rounded rounded-3">
                 </div>
             </div>
 
-            <div class="col-xs-12 box-6 col-md-6 col-lg-4 mb-4">
-                <div class="box-inner-6 rounded rounded-3">
-
+            <div class="col-12 col-md-6 col-lg-4 mb-4">
+                <div class="box-6 rounded rounded-3">
                 </div>
             </div>
 
@@ -81,7 +94,7 @@
     </div>
 
     <!-- ABOUT -->
-    <div class="container-fluid bg-green text-center text-white mb-5">
+    <div class="container-fluid section-container text-center text-white mb-5">
         <div class="container">
 
             <div class="row">
@@ -90,13 +103,13 @@
                 </div>
             </div>
 
-            <div class="row">
-                <div class="col-xs-8 col-md-6 text-start">
+            <div class="row justify-content-center">
+                <div class="col-10 col-md-5 text-start">
                     <p class="">Lorem ipsum dolor sit amet consectetur, adipisicing elit. In, delectus a iusto dolore
                         nam aliquam ad. Aliquam repellat deserunt soluta adipisci fuga, amet inventore neque tempora.
                         Temporibus ducimus eos sunt.</p>
                 </div>
-                <div class="col-xs-8 col-md-6 text-start">
+                <div class="col-10 col-md-5 text-start">
                     <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam ducimus sequi ex
                         corrupti quae veniam? Distinctio dicta recusandae voluptas! Dicta dolor iure corrupti porro
                         tenetur, quisquam sequi, maxime voluptate cumque omnis, nihil quaerat eveniet repellat natus.
@@ -117,30 +130,56 @@
             </div>
         </div>
 
-        <div class="form">
+        <div class="row justify-content-center">
+            <div class="col-10">
+                <form action="">
+                    <input placeholder="Name" type="text">
+                    <input placeholder="Email Address" type="email" name="" id="">
+                    <input placeholder="Phone Number" type="tel" name="" id="">
+                    <textarea placeholder="Message" name="" id="" rows="5"></textarea>
+                </form>
+            </div>
 
-        </div>
-
-        <div class="btn">send</div>
-
-    </div>
-
-    <div class="container-fluid text-center bg-footer text-white">
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-12 col-md-4">LOCATION</div>
-                <div class="col-xs-12 col-md-4">AROUND THE WEB</div>
-                <div class="col-xs-12 col-md-4">ABOUT FREELANCING</div>
+            <div class="col-10 text-start">
+                <button type="button" class="btn btn-success">Success</button>
             </div>
 
         </div>
+
     </div>
 
-    <div class="container-fluid text-white text-center">
-        <div class="row">
-            <div class="col-xs-12 bg-copy">Copyright &copy; Your Website 2019</div>
+    <!-- FOOTER -->
+
+    <footer>
+        <div class="text-center text-white">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-4">
+                        <h3>LOCATION</h3>
+                        <p>2215 John Daniel Drive Clark, MO 54243</p>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <h3>AROUND THE WEB</h3>
+                        <div class="icon">
+                            <i class="fab fa-facebook-f"></i>
+                            <i class="fab fa-google-plus-g"></i>
+                            <i class="fab fa-twitter"></i>
+                            <i class="fab fa-linkedin-in"></i>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <h3>ABOUT FREELANCING</h3>
+                        <p>Freelance is a free to use, open source Bootstrap theme created by <a href="">Start Boostrap</a></p>
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
+        <div class="container-fluid text-white text-center">
+            <div class="row">
+                <div class="col-12 bg-copy">Copyright &copy; Your Website 2019</div>
+            </div>
+        </div>
+    </footer>
 
 </body>
 
